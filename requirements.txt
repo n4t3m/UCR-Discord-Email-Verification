@@ -13,7 +13,6 @@ imageio-ffmpeg==0.4.5
 mailjet-rest==1.3.4
 multidict==5.2.0
 numpy==1.22.0
-pymongo==4.0.1
 python-dotenv==0.19.2
 requests==2.27.1
 typing-extensions==4.0.1

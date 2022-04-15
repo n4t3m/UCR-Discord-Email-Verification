@@ -23,7 +23,7 @@ async def send_mailjet_email(email: str, name: str, code:str):
         ],
         "Subject": "UCR Email Verification",
         "TextPart": f"Here is your code: {code}",
-        "HTMLPart": f"Go back to where you entered the verification command and enter the command <b>/code {code}</b>.",
+        "HTMLPart": f"Go back to where you entered the verification command and enter the command /code. Then paste the following code: <b>{code}</b>.",
         "CustomID": "UCRStudentVerificationBot"
         }
     ]

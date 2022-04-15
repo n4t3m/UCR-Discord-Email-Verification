@@ -4,6 +4,8 @@ hello hello, welcome to another repo with my ~~wonderful~~ code :)
 
 This is a discord bot (using the pycord libary) that verifies people who have UCR email addresses by giving them a configurable role. The bot utilizes slash commands to do this.
 
+## how it workz
+
 Here is how it works from the user's POV: It's simple (I hope):
 - Go to a channel where you have permissions to type
 - Enter ``/verify <ucr email address>``
@@ -23,3 +25,17 @@ Here is a quick technical description of how verification works:
 
 here are some screenshots:
 - i am lazy
+
+## Secrets
+
+Here is what the .env file should look like =))
+
+```
+#Discord Config
+VERIFICATION_BOT_TOKEN=
+#Mailjet Config
+MAILJET_API_KEY =
+MAILJET_API_SECRET = 
+#MongoDB Atlas
+MONGO_CONNECTION_STRING=
+```
